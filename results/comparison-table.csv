@@ -1,0 +1,12 @@
+input_text,model_1_sentiment_label,model_1_sentiment_score,model_2_zeroshot_label,model_2_zeroshot_score,model_3_ner_entities,model_4_groq_classification,notes,tested_at
+Unauthorized login from IP 198.51.100.4 traced to Moscow targeting user John Miller at 3:47 AM, positive,0.4013,possible anomaly,0.9,"""{\""entity_group\"":\""LOC\"",\""score\"":0.9996966,\""word\"":\""Moscow\"",\""start\"":50,\""end\"":56}""","**HIGH**
+
+This alert is classified as HIGH due to the unauthorized login attempt, which could indicate potential account compromise or ongoing security threats, especially occurring outside of regular business hours.",,5/8/2026 4:42pm
+Routine firewall rule update completed on fw-01 during scheduled maintenance window, positive,0.4013,routine activity,1.0,"""{}""","INFORMATIONAL. The alert indicates that a routine maintenance activity was completed as expected, with no apparent issues or security implications.",,5/8/2026 4:42pm
+Phishing email with spoofed Amazon domain detected targeting finance@acmecorp.com, positive,0.4013,possible anomaly,0.8,"""{\""entity_group\"":\""ORG\"",\""score\"":0.99667954,\""word\"":\""Amazon\"",\""start\"":28,\""end\"":34}""","MEDIUM
+
+This alert is classified as MEDIUM because, while phishing emails are concerning, the fact that it's targeting a specific user (finance@acmecorp.com) with a domain spoof (but still Amazon), suggests a targeted attack rather than a widespread campaign, limiting the potential damage.",,5/8/2026 4:42pm
+Multiple failed SSH attempts from Beijing IP on  Cloudflare production server — 47 attempts in 5 minutes, positive,0.4013,possible anomaly,0.8,"""{\""entity_group\"":\""MISC\"",\""score\"":0.9697967,\""word\"":\""SS\"",\""start\"":16,\""end\"":18}""","CRITICAL. This alert indicates a high volume and sudden frequency of unauthorized login attempts, suggesting a potential brute-force attack or automated scanner activity.",,5/8/2026 4:42pm
+System resource utilization normal across all monitored hosts — no anomalies detected, positive,0.4013,routine activity,1.0,"""{}""","INFORMATIONAL
+
+This classification is given because there's no indication of a potential security issue, and the system is functioning as expected.",,5/8/2026 4:42pm
